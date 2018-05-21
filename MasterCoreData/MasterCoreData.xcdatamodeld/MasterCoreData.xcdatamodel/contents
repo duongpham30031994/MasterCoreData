@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="16G1114" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="DataProducts" representedClassName="DataProducts" syncable="YES" codeGenerationType="class">
+        <attribute name="imageProducts" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="locationProducts" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nameProducts" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="noteProducts" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ratingProducts" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="totalProducts" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="DataUser" representedClassName="DataUser" syncable="YES" codeGenerationType="class">
+        <attribute name="user" optional="YES" attributeType="Transformable" customClassName="User" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="DataUser" positionX="-63" positionY="-18" width="128" height="60"/>
+        <element name="DataProducts" positionX="-45" positionY="9" width="128" height="135"/>
+    </elements>
 </model>
